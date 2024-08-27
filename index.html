@@ -6,14 +6,12 @@
     <title>Sweet Treats</title>
     <!--importação da fonte-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     <!--link css-->
     <link rel="stylesheet" href="css/style.css" />
-    <!--links fonts utilizadas-->
-    <!--Montserrat-->
-    <!--New Amsterdam-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    
 </head>
 <body>
 
@@ -40,11 +38,11 @@
 
     <section class="home" id="home">
 
-        <div class="div home-slider">
+        <div class="swiper home-slider">
 
-            <div class="w">
+            <div class="swiper-wrapper">
 
-                <div class="slide" style="background: url(imagens/choc.png) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(imagens/choc.png) no-repeat;">
                     <div class="content">
                         <Span>outstanding food</Span>
                         <h3>delicious cooking</h3>
@@ -52,7 +50,7 @@
                     </div>
                 </div>
 
-                <div class="slide" style="background: url(imagens/limao.png) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(imagens/limao.png) no-repeat;">
                     <div class="content">
                         <Span>outstanding food</Span>
                         <h3>delicious cooking</h3>
@@ -60,7 +58,7 @@
                     </div>
                 </div>
 
-                <div class="slide" style="background: url(imagens/morango.png) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(imagens/morango.png) no-repeat;">
                     <div class="content">
                         <Span>outstanding food</Span>
                         <h3>delicious cooking</h3>
@@ -69,10 +67,17 @@
                 </div>
 
             </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section>
 
     <!--HOME SECTION TERMINA-->
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!--JS FILE-->
+    <script src="js/script.js"></script>
 </body>
 </html>

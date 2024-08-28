@@ -277,9 +277,29 @@
 
   .food .slide {
     text-align: center;
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
+    border-radius: .5rem;
     transform: scale(.9);
     opacity: .5;
+    margin-bottom: 4rem;
+    clip-rule: pointer;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: var(--peru);
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 0;
+
+  }
+
+  .food .swiper-slide-active {
+    transform: scale(1);
+    opacity: 1;
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    border: var(--border);
   }
 
   .food .slide img {

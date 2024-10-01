@@ -318,6 +318,61 @@
     color: var(--peru);
   }
 
+  .order {
+    background-color: var(--peru);
+  }
+
+  .order .heading span {
+    color: var(--white);
+  }
+
+  .order .heading h3 {
+    color: var(--white);
+  }
+
+  .order form {
+    padding: 2rem;
+    background: var(--white);
+  }
+
+  .order form .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .order form .box-container .box {
+    flex: 1 1 41rem;
+  }
+
+  .order form .box-container .box .inputBox input,
+  .order form .box-container .box .inputBox textarea {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.7rem;
+    color: var(--light-black);
+    border: var(--border);
+    text-transform: none;
+  }
+
+  .order form .box-container .box .inputBox textarea {
+    height: 20rem;
+    resize: none;
+  }
+
+  .order form .box-container .box .inputBox map {
+    height: 20rem;
+    width: 100%;
+  }
+  
+  .order form .box-container .box .inputBox span {
+    color: var(--light-black);
+    font-size: 2rem;
+  }
+
+
+
 
 
 
@@ -350,6 +405,7 @@
       font-size: 15vw;
     }
 
+    
     
   }
 
